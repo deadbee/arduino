@@ -33,6 +33,9 @@ typedef enum
 
 
 uint8_t itg3205_get_device_id(void);
+
+bool itg3205_setup(void);
+
 void itg3205_debug(void);
 
 #endif /* ITG3205_H__ */
